@@ -39,7 +39,7 @@ helm pull https://stacksimplify.github.io/helm-charts/mychart4-0.1.0.tgz --untar
 # Helm Pull MyChart2
 helm pull https://stacksimplify.github.io/helm-charts/mychart2-0.4.0.tgz --untar
 
-# at the time of pulling we can use format it will work if hosted in chart in github account
+# at the time of pulling we can use below format it will work if hosted in helm chart in github account 
 
 helm pull https://raw.githubusercontent.com/<username>/<repository>/<branch>/<path-to-file> --untar
 
